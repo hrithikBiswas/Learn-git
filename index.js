@@ -1,16 +1,10 @@
-const myFucntion = (msg, presentYear, birthYear) => {
+const myFucntion = (msg, age) => {
     let name = "sonchita";
-    let age = presentYear - birthYear;
-    let obj = {
-        name: "Hrithik",
-        title: "Biswas",
-        nationality: "Bangladeshi",
-        age: 21,
-    };
-    let print = `${obj.name} ${obj.title} is a ${obj.nationality} person. He is ${obj.age} years old.`;
-    return `${msg} ${name}, You are ${age} years old. \n${print}`;
+    let date = new Date();
+    let year = date.getFullYear() - age;
+    return `${msg} ${name}, You are born in ${year}.`;
 };
 
-const output = myFucntion("Welcome", 2021, 2003); // Welcome Sonchita, You are 21 years old.
+const output = myFucntion("Hi", 18); // Hi Sonchita, You are born in 18.
 
 console.log(output);
