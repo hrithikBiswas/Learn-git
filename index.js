@@ -1,6 +1,6 @@
 const myFucntion = (msg) => {
     let name = "Hrithik";
-    return `${msg} ${name} Biswas`;
+    return `${msg} ${name}`;
 };
 
 const output = myFucntion("Hello");
