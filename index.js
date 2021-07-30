@@ -5,6 +5,6 @@ const myFucntion = (msg, age) => {
     return `${msg} ${name}, You are born in ${year}.`;
 };
 
-const output = myFucntion("Welcome", 18); // Welcome Sonchita, You are born in 18.
+const output = myFucntion("Hi", 18); // Hi Sonchita, You are born in 18.
 
 console.log(output);
