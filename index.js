@@ -1,5 +1,5 @@
 const myFucntion = (msg, presentYear, birthYear) => {
-    let name = "Sonchita";
+    let name = "sonchita";
     let age = presentYear - birthYear;
     let obj = {
         name: "Hrithik",
@@ -11,6 +11,6 @@ const myFucntion = (msg, presentYear, birthYear) => {
     return `${msg} ${name}, You are ${age} years old. \n${print}`;
 };
 
-const output = myFucntion("Hello", 2021, 2018); // Hello Hrithik, You are 21 years old.
+const output = myFucntion("Welcome", 2021, 2003); // Welcome Sonchita, You are 21 years old.
 
 console.log(output);
