@@ -12,5 +12,8 @@ console.log(output);
 const multiply = (a, b) => {
     let gun = a * b;
     console.log(gun);
+    let x = b - 10;
+    let power = a * x;
+    console.log(power);
 };
 multiply(40, 20);
