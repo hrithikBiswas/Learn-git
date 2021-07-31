@@ -8,3 +8,9 @@ const myFucntion = (msg, age) => {
 const output = myFucntion("Hi", 18); // Hi Sonchita Biswas, You are born in 18.
 
 console.log(output);
+
+const add = (a, b) => {
+    let sum = a + b;
+    console.log(sum);
+};
+add(10, 20);
