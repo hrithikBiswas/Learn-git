@@ -10,8 +10,7 @@ const output = myFucntion("Hi", 18); // Hi Sonchita Biswas, You are born in 18.
 console.log(output);
 
 const multiply = (a, b) => {
-    let x = b - 10;
-    let gun = a * x;
+    let gun = a * b;
     console.log(gun);
 };
 multiply(40, 20);
