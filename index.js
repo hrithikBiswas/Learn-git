@@ -9,8 +9,8 @@ const output = myFucntion("Hi", 18); // Hi Sonchita Biswas, You are born in 18.
 
 console.log(output);
 
-const add = (a, b) => {
-    let sum = a + b;
-    console.log(sum);
+const subtract = (a, b) => {
+    let minus = a + b;
+    console.log(minus);
 };
-add(10, 20);
+subtract(40, 20);
